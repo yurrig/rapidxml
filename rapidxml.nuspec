@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>RapidXml</id>
+        <authors>Marcin Kalicinski</authors>
+        <version>1.13</version>
+        <description>RapidXml is an attempt to create the fastest XML DOM parser possible, while retaining useability, portability and reasonable W3C compatibility. It is an in-situ parser written in C++, with parsing speed approaching that of strlen() function executed on the same data.</description>
+        <tags>native nativepackage C++ rapidxml</tags>
+    </metadata>
+    <files>
+        <file src="*.hpp"          target="build\native\include" />
+        <file src="*.html"         target="build\native\include" />
+        <file src="*.txt"          target="build\native\include" />
+        <file src="rapidxml.props" target="build\native"         />
+    </files>
+</package>
